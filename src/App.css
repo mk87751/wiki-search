@@ -1,0 +1,64 @@
+.App {
+  background-color: cadetblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  font-size: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40%;
+  width: 40%;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  min-height: 30px;
+  width: 300px;
+  background-color: aqua;
+  border-radius: 2px;
+}
+
+.serach-result {
+  margin: 5px;
+  width: 80%;
+  padding-left: 10px;
+  /* border: 2px solid yellow; */
+  background-color: gray;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+.result {
+  padding: 2px;
+}
+
+.result a {
+  color: white;
+  text-decoration: none;
+}
+
+.result a:hover {
+  background-color: blue;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
